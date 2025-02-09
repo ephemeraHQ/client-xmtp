@@ -1,4 +1,4 @@
-// src/index.ts
+// src/client.ts
 import { xmtpClient } from "@xmtp/agent-starter";
 import {
   composeContext,
@@ -157,6 +157,8 @@ var XmtpClientInterface = {
     };
   }
 };
+
+// src/index.ts
 var xmtpPlugin = {
   name: "xmtp",
   description: "XMTP client",
@@ -164,8 +166,6 @@ var xmtpPlugin = {
 };
 var index_default = xmtpPlugin;
 export {
-  XmtpClientInterface,
-  index_default as default,
-  messageHandlerTemplate
+  index_default as default
 };
 //# sourceMappingURL=index.js.map
