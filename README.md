@@ -24,7 +24,7 @@ graph TD
     TC --> |"Bot API"| TC1["Commands & Media"]
     TWC --> |"Social"| TWC1["Posts & Interactions"]
     AC --> |"Trading"| AC1["Analysis & Execution"]
-    XMTP --> |"P2P Messaging"| XMTP1["Secure messaging"]
+    XMTP --> |"E2EE Messaging"| XMTP1["Secure messaging"]
 
     %% Simple styling with better contrast and black text
     classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px,color:black
