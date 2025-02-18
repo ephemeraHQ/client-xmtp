@@ -56,7 +56,14 @@ import { XmtpClientInterface } from "@elizaos/client-xmtp";
 
 // Initialize the XMTP client
 const client = await XmtpClientInterface.start(runtime);
+
+
+// Configuration in .env
+WALLET_KEY= // the private key of the wallet
+ENCRYPTION_KEY= // a second random 32 bytes encryption key for local db encryption
 ```
+
+For more information about XMTP visit it's [agent examples repo](https://github.com/ephemeraHQ/xmtp-agent-examples)
 
 ## Why XMTP
 
