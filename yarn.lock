@@ -500,48 +500,48 @@
   dependencies:
     undici-types "~6.20.0"
 
-"@xmtp/content-type-group-updated@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@xmtp/content-type-group-updated/-/content-type-group-updated-2.0.0.tgz#80473cc4bbca990cfe57600de9e5f23cd3aa6b49"
-  integrity sha512-gxYM4gM2IuKXpOwDcu6+RS7tkUMX6VStgdzFq8ruo3GVLZ03mwb9zjMNVhFwyRcdx6mNSDOTV01y+5P8aslkRg==
+"@xmtp/content-type-group-updated@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@xmtp/content-type-group-updated/-/content-type-group-updated-2.0.2.tgz#b664fd096a14245c3164bd35a5db77240de6c7d4"
+  integrity sha512-ZUGLtzWALo5jimk5hYBVXjbdaKT6zP6a9wK0Urzl9H+Xv2w+H3fYDhwAidU0PXTcLL81qlUM6joxKVlsF5udvA==
   dependencies:
-    "@xmtp/content-type-primitives" "^2.0.0"
-    "@xmtp/proto" "^3.72.0"
+    "@xmtp/content-type-primitives" "^2.0.2"
+    "@xmtp/proto" "^3.78.0"
 
-"@xmtp/content-type-primitives@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@xmtp/content-type-primitives/-/content-type-primitives-2.0.0.tgz#699abb865fd6a608a3ee8d613596128cdbd9fec1"
-  integrity sha512-ZutFl+dv9jZgGdRDuZZuJj9XNhq1RfSiCryX25HGs/3rVS3FYfVc3y26iV4jdSN2UALCkznXFuD/GXv5eZSN/w==
+"@xmtp/content-type-primitives@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@xmtp/content-type-primitives/-/content-type-primitives-2.0.2.tgz#cfd6f9fc2b7d7ba1cb0d21325cb0e99458988602"
+  integrity sha512-OTUsCD48sO2Eg69dfre32OSnXSkmefbSZA4L0S58LqYK6+hMymFRRjEH4fvPzXc9WCw5FmCYEG7DFAaB680HiQ==
   dependencies:
-    "@xmtp/proto" "^3.72.0"
+    "@xmtp/proto" "^3.78.0"
 
-"@xmtp/content-type-text@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@xmtp/content-type-text/-/content-type-text-2.0.0.tgz#4228cad4c8431b709b02d36f4b62bf8c3c7694fd"
-  integrity sha512-WcFMhjubA6E8j42L6XIsLipDo5AP70TdS2taEH2Ry6V1NeZf8+cjHVrwh60fZeGnrcLWy/tDV4QyXUsD3j045w==
+"@xmtp/content-type-text@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@xmtp/content-type-text/-/content-type-text-2.0.2.tgz#dbfde0e5840cd178a18b7ca618b10813e4175820"
+  integrity sha512-nlRufOYPrG5sNbruNPCsb6Qk9/jmJ5lMooPsZEo4Dbwda/2S4bSvrrIncT6if7M2SCha3hxtlgJlFGeTtHy4gQ==
   dependencies:
-    "@xmtp/content-type-primitives" "^2.0.0"
+    "@xmtp/content-type-primitives" "^2.0.2"
 
-"@xmtp/node-bindings@^0.0.34":
-  version "0.0.34"
-  resolved "https://registry.yarnpkg.com/@xmtp/node-bindings/-/node-bindings-0.0.34.tgz#6df2230f747fa6263c5d32f9af1585ac9452a781"
-  integrity sha512-1k6sZkEs5AC6YqLNUzZtb58GKLTwizn+g3NP4r/vMWtLzRV53jHyLGdDZYBgKcxh9xNR+TevnSNN0sFqNWKbog==
+"@xmtp/node-bindings@1.2.0-dev.c24af30":
+  version "1.2.0-dev.c24af30"
+  resolved "https://registry.yarnpkg.com/@xmtp/node-bindings/-/node-bindings-1.2.0-dev.c24af30.tgz#cc89b36e7c1cff583ae7a4b4a4e004a45b7e2ef6"
+  integrity sha512-MJZFYfkhxwCJCNXfUn1XXYHjBT5sfEdd826shC1OIpyKO3C2/UugLUMPm9HmkLvg4sf0wM5onPsj5XB5fv8KXw==
 
-"@xmtp/node-sdk@0.0.40":
-  version "0.0.40"
-  resolved "https://registry.yarnpkg.com/@xmtp/node-sdk/-/node-sdk-0.0.40.tgz#9c774bbb80739ef3fd640297fca3ef97e2056808"
-  integrity sha512-qJaiF7F1ObcKW+1ef7p2SytgDT6Lo9Hn3tMVbzjHf6R5mBxNQttytx2JeN6RUFFO1I+NdOuJIdtGmNrJWEyZWA==
+"@xmtp/node-sdk@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@xmtp/node-sdk/-/node-sdk-2.0.3.tgz#98e5d2d87b943e80d130f48d53401330ec108d7f"
+  integrity sha512-sFXqih+vWQggBamWjGVF8wQ3vqCjO4DAIgbZ5YuvnwP8UDF7I4R3Ca6o23hdgxN6eojIliENntP9x0QXwexc2g==
   dependencies:
-    "@xmtp/content-type-group-updated" "^2.0.0"
-    "@xmtp/content-type-primitives" "^2.0.0"
-    "@xmtp/content-type-text" "^2.0.0"
-    "@xmtp/node-bindings" "^0.0.34"
-    "@xmtp/proto" "^3.72.3"
+    "@xmtp/content-type-group-updated" "^2.0.2"
+    "@xmtp/content-type-primitives" "^2.0.2"
+    "@xmtp/content-type-text" "^2.0.2"
+    "@xmtp/node-bindings" "1.2.0-dev.c24af30"
+    "@xmtp/proto" "^3.78.0"
 
-"@xmtp/proto@^3.72.0", "@xmtp/proto@^3.72.3":
-  version "3.73.0"
-  resolved "https://registry.yarnpkg.com/@xmtp/proto/-/proto-3.73.0.tgz#6851bf1c66af5152633bcc21ae6b70f2a11c46c5"
-  integrity sha512-Rgtfme8KeQ5lMI62o1Wq+7fJhoOS4QR94fx84+83NEZyYT7VBd+V/13B5a/OSzz6EnWWEyYEg+Dv7ZxV4KouQA==
+"@xmtp/proto@^3.78.0":
+  version "3.78.0"
+  resolved "https://registry.yarnpkg.com/@xmtp/proto/-/proto-3.78.0.tgz#6423d5c2fde40fcdcb953cb82a71f101f547c807"
+  integrity sha512-JHkkvbdyqpWo1YOg88uOrc2GAsPnfXhIWaUKyIjXQdt4LltR4iAMgXcr1CFN+xjUmOBkAwwJ2JywUYv/uA4yZA==
   dependencies:
     long "^5.2.0"
     protobufjs "^7.0.0"
