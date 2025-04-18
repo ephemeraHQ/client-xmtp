@@ -4,7 +4,6 @@
     "main": "dist/index.js",
     "type": "module",
     "types": "dist/index.d.ts",
-    "packageManager": "yarn@1.22.21",
     "dependencies": {
         "@xmtp/node-sdk": "2.0.3",
         "tsx": "^4.19.2",
