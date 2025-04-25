@@ -101,22 +101,23 @@ export const XmtpClientInterface: Client = {
       );
 
       elizaLogger.success("Waiting for messages...");
-      const stream = client.conversations.streamAllMessages();
-
-      elizaLogger.success("✅ XMTP client started");
-
-      for await (const message of await stream) {
+      client.conversations.streamAllMessages(async (err, message) => {
+        if (err) {
+          elizaLogger.error("Error streaming messages", err);
+          return;
+        }
+        
         if (
           message?.senderInboxId.toLowerCase() ===
             client.inboxId.toLowerCase() ||
           message?.contentType?.typeId !== "text"
         ) {
-          continue;
+          return;
         }
 
         // Ignore own messages
         if (message.senderInboxId === client.inboxId) {
-          continue;
+          return
         }
 
         elizaLogger.success(
@@ -131,7 +132,7 @@ export const XmtpClientInterface: Client = {
 
         if (!conversation) {
           console.log("Unable to find conversation, skipping");
-          continue;
+          return;
         }
 
         elizaLogger.success(`Sending "gm" response...`);
@@ -139,7 +140,9 @@ export const XmtpClientInterface: Client = {
         await processMessage(message, conversation);
 
         elizaLogger.success("Waiting for messages...");
-      }
+      });
+
+      elizaLogger.success("✅ XMTP client started");
 
       return client;
     }
