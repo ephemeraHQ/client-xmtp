@@ -5,7 +5,9 @@
     "type": "module",
     "types": "dist/index.d.ts",
     "dependencies": {
+        "@elizaos/core": "0.1.9",
         "@xmtp/node-sdk": "2.0.3",
+        "sharp": "0.34.1",
         "tsx": "^4.19.2",
         "uint8arrays": "^5.1.0",
         "viem": "^2.22.17"
